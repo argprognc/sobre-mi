@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Estilos para el cuerpo del sitio */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #b9330e;
+    color: #fff;
+    text-align: center;
+    padding: 1;
+}
+
+/* Estilos para la imagen del logo en la sección de la imagen */
+.image-section img {
+    max-height: 100; /* Puedes ajustar el tamaño de la imagen */
+    margin-bottom: 10px;
+}
+
+
+/*-----------------*/
+/* Separo el texto del contenido*/
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+}
+
+/* Estilos para la sección de la imagen y el video */
+.image-section {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+  
+.image-section video {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/*-----------------*/
+
+
+/* Estilo de los links*/
+nav {
+    background-color: #e5ebe9; 
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Cambia el color del link al posicionar el cursor sobre el mismo*/
+nav a:hover {
+    color: darkred;
+}
+
+
+/* Estilos para los artículos */
+article {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los títulos de los artículos */
+article h2 {
+    border-bottom: 1px solid #bbb474;
+    padding-bottom: 2px;
+}
+
+/* Estilos para las listas */
+article ul {
+    list-style: none;
+    padding: 5;
+}
+
+article li {
+    margin-bottom: 2px;
+}
+
+
+
+
