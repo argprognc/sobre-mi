@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen del Alumno</title>
+    <!--Llamo al archivo css para agregarle los estilos-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body> <!--Crep dos secciones para poder agregar una imagen al lado del encabezado-->
+    <!-- Encabezado -->
+    <header>
+        <h1>Información del Alumno</h1>
+    </header>
+
+    <nav>
+        <!-- Un detalle para hacer más homogeneo el estilo de los títulos de una sola vez-->
+        <article id="links">
+            <h2>
+                Links de interés
+            </h2>
+        </article>
+        <a href= "https://github.com/argprognc">Mi cuenta github</a>
+        <a href="https://github.com/argprognc/sobre-mi">Mi repositorio</a>
+        <a href="https://www.instagram.com/___nico.ch/">ig</a>
+    </nav>
+    
+    <main>
+        <div class="content-container">
+            
+            <!-- Creo secciones para poder partir la página a la mitad-->
+            <section class="text-section">
+                <article id="datos-basicos">
+                    <h2>
+                        Datos Básicos
+                    </h2>
+                    <!--Agrego mis datos básicos en una lista desordenada-->
+                    <ul>
+                        <li><strong>Nombre:</strong> Nicolás Chavez </li>
+                        <li><strong>Edad:</strong> 33 años</li>
+                        <li><strong>País:</strong> Argentina</li>
+                    </ul>
+                </article>
+
+                <article id="intereses">
+                    <h2>
+                        Intereses
+                    </h2>
+                    <!--Agrego mis intereses en una lista desordenada-->
+                    <ul>
+                        <li>Ingeniería Civil</li>
+                        <li>Programación</li>
+                        <li>Matemática</li>
+                        <li>Pelis pochocleras</li>
+                        <li>Deportes</li>
+                        <li>Música</li>
+                    </ul>
+                </article>
+                
+                <article id="experiencias">
+                    <h2>Experiencias</h2>
+                    <!--Agrego mis experiencias-->
+                    <p>Trabaje en tareas variadas el en el rubro de la construcción.
+                    <br>Diseño y ejecución de proyectos, relevamientos topográficos.
+                    </p>
+                    
+                    
+                </article>
+            </section>
+
+            <!--Agrego una sección para el contenido multimedia-->
+            <section class="image-section">
+                <img src="foto-paratrike.png" alt="Foto personal">      
+                <video controls>
+                    <source src="manim.mp4" type="video/mp4">
+                </video>
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>
